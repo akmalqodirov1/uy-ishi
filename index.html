@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #111;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            color: orange;
+        }
+        .hero {
+            text-align: center;
+        }
+        .hero img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            background-color: orange;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .card.red {
+            background-color: #ff5722;
+        }
+        .card img {
+            max-width: 100px;
+            display: block;
+            margin: auto;
+        }
+        .card h3 {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: gray;
+        }
+        footer a {
+            color: gray;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">🦢 Goose Escape</div>
+        <nav>
+            <a href="#">SERVICES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACTS</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="team.jpg" alt="Team">
+    </section>
+
+    <section class="grid">
+        <div class="card">
+            <img src="seo.png" alt="SEO">
+            <h3>SEO</h3>
+        </div>
+        <div class="card">
+            <img src="development.png" alt="Development">
+            <h3>Development</h3>
+        </div>
+        <div class="card red">
+            <img src="context.png" alt="Context">
+            <h3>Context</h3>
+        </div>
+        <div class="card">
+            <img src="serm.png" alt="SERM">
+            <h3>SERM</h3>
+        </div>
+        <div class="card">
+            <img src="crm.png" alt="CRM">
+            <h3>CRM</h3>
+        </div>
+        <div class="card red">
+            <img src="webscraping.png" alt="Web Scraping">
+            <h3>Web Scraping</h3>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Goose Escape | <a href="#">Privacy policy</a>
+    </footer>
+
+</body>
+</html>
